@@ -9,7 +9,7 @@
 namespace Views;
 
 
-new Template();
+use http\Url;
 
 class Template
 {
@@ -73,7 +73,7 @@ class Template
                 <div id="barra_arriba" class="nav-wrapper cyan lighten-2"><a href="<?php echo URL?>inicio" class="brand-logo"><img src="Public/imagenes/escudo.jpg" width="160px" height="65px"/></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="<?php echo URL?>inicio" class="black-text"><font color="#ffffff"><b>Inicio</b></font></a></li>
-                        <li><a href="<?php echo URL?>Login" class="black-text"><font color="#ffffff"><b>Login</b></font></a></li>
+                        <li><a href="<?php echo URL?>login" class="black-text"><font color="#ffffff"><b>Login</b></font></a></li>
                     </ul>
                     <?php }?>
                 </div>
@@ -211,7 +211,7 @@ class Template
             </div>
             <div class="footer-copyright" id="foot_copy">
                 <div class="container white-text right-align">
-                    ® 2018
+                    ® 2019
                 </div>
             </div>
         </footer>
