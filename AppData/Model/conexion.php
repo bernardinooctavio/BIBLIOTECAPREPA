@@ -1,17 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: octavio
- * Date: 22/03/2019
- * Time: 11:54 AM
- */
 
 namespace AppData\Model;
 
 
 class conexion
 {
-    private $datos=array("server"=>"localhost","user"=>"root","password"=>"", "base"=>"Biblioprepa");
+
+    private $datos=array("server"=>"localhost","user"=>"root","password"=>"", "base"=>"biblioprepa");
 
 
 
@@ -37,5 +32,4 @@ class conexion
     {
         $this->conexion->close();
     }
-
 }

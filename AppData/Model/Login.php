@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: octavio
- * Date: 22/03/2019
- * Time: 12:13 PM
- */
+
 
 namespace AppData\Model;
 
@@ -35,5 +30,4 @@ class Login
         $dato=$this->conexion->QueryResultado($sql);
         return $dato;
     }
-
 }

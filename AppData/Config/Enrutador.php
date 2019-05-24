@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: octavio
- * Date: 22/03/2019
- * Time: 10:34 AM
+ * User: JAZMIN
+ * Date: 11/05/2018
+ * Time: 07:32 AM
  */
 
 namespace AppData\Config;
@@ -47,5 +47,4 @@ class Enrutador
             echo(json_encode(mysqli_fetch_assoc($datos)));
         }
     }
-
 }

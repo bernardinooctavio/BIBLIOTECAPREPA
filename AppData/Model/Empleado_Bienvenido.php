@@ -1,12 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: octavio
- * Date: 22/03/2019
- * Time: 11:51 AM
- */
+
 
 namespace AppData\Model;
+
+
 class Empleado_Bienvenido
 {
     function __construct()
